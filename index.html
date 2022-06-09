@@ -1,14 +1,27 @@
 <html>
     <head>
-        <script src="index.js"></script>
+        
         <link rel="stylesheet" href="index.css"></link>
     </head>
     <body>
-        <div class="container">
-            <h1>Blackjack</h1>
-            <p id="message-el">Play a round?</p>
-            <p>Cards:</p>
-            <p>Sum:</p>
+        <h1>Blackjack</h1>
+        <p id="msg-el">Play a round?</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <div>
+            <button id="start-btn" onclick="startGame()">Start Game</button>
         </div>
+        <div>
+            <button id="new-card-btn" onclick="newCard()">New Card</button>
+            <button id="hold-btn" onclick="hold()">Hold Card</button>
+        </div>
+        <div class="bet-buttons">
+            <!--Set to increments of five-->
+            <button id="incr-bet-btn" onclick="betChange(5)">Increase Bet</button>
+            <button id="decr-bet-btn" onclick="betChange(-5)">Decrease Bet</button>
+        </div>
+        <p id="player-el"></p>
+        <p id="bet-el"></p>
+        <script src="index.js"></script>
     </body>
 </html>
