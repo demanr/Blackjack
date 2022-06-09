@@ -1,0 +1,17 @@
+h1 {
+    color: goldenrod;
+    text-decoration: overline;
+}
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 36;
+    color: white;
+    margin: 4em;
+    background: rgb(33,129,43);
+    background: radial-gradient(circle, rgba(33,129,43,1) 0%, rgba(97,185,52,1) 78%, rgba(87,195,50,1) 100%);
+}
+
+#message-el {
+    font-style: italic;
+}
